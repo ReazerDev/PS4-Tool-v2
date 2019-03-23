@@ -60,6 +60,7 @@ namespace PS4_Tool_v2.Fragments
                 Functions functions = new Functions();
                 functions.createDirectories(Context.ApplicationContext);
                 functions.getFilesInDownload();
+                functions.moveFromAssets(Context.ApplicationContext);
 
                 payloadList = functions.getFilesInDirectory();
 

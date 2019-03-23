@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.Reazer.PS4_Tool_v2" android:versionCode="1" android:versionName="1">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.Reazer.PS4Toolv2" android:versionCode="1" android:versionName="1">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -11,6 +11,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.Reazer.PS4_Tool_v2.mono.MonoRuntimeProvider.__mono_init__" />
+    <activity android:label="Import" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md58f4bf2bdbeb0f4bf5da0e30d65e153fe.ImportActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.Reazer.PS4Toolv2.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
 </manifest>

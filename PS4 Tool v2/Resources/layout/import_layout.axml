@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent">
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/import_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="@color/primary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" >
+		</android.support.v7.widget.Toolbar>
+	</android.support.design.widget.AppBarLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="65.0dp"
+		android:layout_marginLeft="5.0dp">
+		<TextView
+			android:text="Select the Firmware Version from which the Payloads should be imported:"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5.0dp" />
+		<CheckBox
+			android:text="1.76 and 4.05"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/firstCheckBox"
+			android:buttonTint="@color/primary"
+			android:scaleX="1.2"
+			android:scaleY="1.2"
+			android:layout_marginLeft="12.0dp" />
+		<CheckBox
+			android:text="4.55"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/secondCheckBox"
+			android:buttonTint="@color/primary"
+			android:scaleX="1.2"
+			android:scaleY="1.2"
+			android:layout_centerHorizontal="true"
+			android:layout_marginLeft="5.0dp" />
+		<CheckBox
+			android:text="5.05"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/thirdCheckBox"
+			android:buttonTint="@color/primary"
+			android:scaleX="1.2"
+			android:scaleY="1.2"
+			android:layout_centerHorizontal="true"
+			android:layout_marginLeft="5.0dp" />
+		<Button
+			android:text="Import"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/importPayloadsBtn"
+			android:layout_marginRight="50.0dp"
+			android:layout_marginLeft="50.0dp"
+			android:background="@color/primary"
+			android:textColor="#ffffffff"
+			android:layout_marginTop="10.0dp" />
+	</LinearLayout>
+	
+
+</android.support.design.widget.CoordinatorLayout>

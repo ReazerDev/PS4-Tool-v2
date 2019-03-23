@@ -2408,6 +2408,9 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
+			// aapt resource value: 0x7F010002
+			public const int @checked = 2130771970;
+			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
 			
@@ -2426,26 +2429,26 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010002
-			public const int Icon = 2130771970;
-			
 			// aapt resource value: 0x7F010003
-			public const int ic_credits = 2130771971;
+			public const int Icon = 2130771971;
 			
 			// aapt resource value: 0x7F010004
-			public const int ic_fan = 2130771972;
+			public const int ic_credits = 2130771972;
 			
 			// aapt resource value: 0x7F010005
-			public const int ic_home = 2130771973;
+			public const int ic_fan = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int ic_menu = 2130771974;
+			public const int ic_home = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int ic_mods = 2130771975;
+			public const int ic_menu = 2130771975;
 			
 			// aapt resource value: 0x7F010008
-			public const int ic_settings = 2130771976;
+			public const int ic_mods = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int ic_settings = 2130771977;
 			
 			// aapt resource value: 0x7F020045
 			public const int my_background = 2130837573;
@@ -2489,14 +2492,17 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010009
-			public const int refresh = 2130771977;
+			// aapt resource value: 0x7F010010
+			public const int refresh = 2130771984;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
 			
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
+			
+			// aapt resource value: 0x7F010011
+			public const int un_checked = 2130771985;
 			
 			static Drawable()
 			{
@@ -2622,8 +2628,8 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F080032
 			public const int contentPanel = 2131230770;
 			
-			// aapt resource value: 0x7F020012
-			public const int content_frame = 2130837522;
+			// aapt resource value: 0x7F020018
+			public const int content_frame = 2130837528;
 			
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
@@ -2661,8 +2667,8 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F08000D
 			public const int disableHome = 2131230733;
 			
-			// aapt resource value: 0x7F020009
-			public const int drawer_layout = 2130837513;
+			// aapt resource value: 0x7F020015
+			public const int drawer_layout = 2130837525;
 			
 			// aapt resource value: 0x7F080044
 			public const int edit_query = 2131230788;
@@ -2682,11 +2688,17 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
 			
+			// aapt resource value: 0x7F020010
+			public const int firstCheckBox = 2130837520;
+			
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
+			
+			// aapt resource value: 0x7F020013
+			public const int fourthCheckBox = 2130837523;
 			
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
@@ -2708,6 +2720,15 @@ namespace PS4_Tool_v2
 			
 			// aapt resource value: 0x7F080027
 			public const int image = 2131230759;
+			
+			// aapt resource value: 0x7F020028
+			public const int importBtn = 2130837544;
+			
+			// aapt resource value: 0x7F020014
+			public const int importPayloadsBtn = 2130837524;
+			
+			// aapt resource value: 0x7F020009
+			public const int import_toolbar = 2130837513;
 			
 			// aapt resource value: 0x7F08005C
 			public const int info = 2131230812;
@@ -2760,20 +2781,20 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020024
-			public const int nav_credits = 2130837540;
+			// aapt resource value: 0x7F020032
+			public const int nav_credits = 2130837554;
 			
-			// aapt resource value: 0x7F020022
-			public const int nav_fan_control = 2130837538;
+			// aapt resource value: 0x7F020030
+			public const int nav_fan_control = 2130837552;
 			
-			// aapt resource value: 0x7F020021
-			public const int nav_home = 2130837537;
+			// aapt resource value: 0x7F020029
+			public const int nav_home = 2130837545;
 			
-			// aapt resource value: 0x7F020023
-			public const int nav_settings = 2130837539;
+			// aapt resource value: 0x7F020031
+			public const int nav_settings = 2130837553;
 			
-			// aapt resource value: 0x7F020013
-			public const int nav_view = 2130837523;
+			// aapt resource value: 0x7F020019
+			public const int nav_view = 2130837529;
 			
 			// aapt resource value: 0x7F08001F
 			public const int never = 2131230751;
@@ -2802,17 +2823,17 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F0C004F
 			public const int parent_matrix = 2131492943;
 			
-			// aapt resource value: 0x7F020017
-			public const int payloadName = 2130837527;
+			// aapt resource value: 0x7F020023
+			public const int payloadName = 2130837539;
 			
-			// aapt resource value: 0x7F020014
-			public const int payloadSpinner = 2130837524;
+			// aapt resource value: 0x7F020020
+			public const int payloadSpinner = 2130837536;
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
-			// aapt resource value: 0x7F020019
-			public const int portTextBox = 2130837529;
+			// aapt resource value: 0x7F020025
+			public const int portTextBox = 2130837541;
 			
 			// aapt resource value: 0x7F080006
 			public const int progress_circular = 2131230726;
@@ -2820,14 +2841,14 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F080007
 			public const int progress_horizontal = 2131230727;
 			
-			// aapt resource value: 0x7F020018
-			public const int PS4IPAdressTextBox = 2130837528;
+			// aapt resource value: 0x7F020024
+			public const int PS4IPAdressTextBox = 2130837540;
 			
 			// aapt resource value: 0x7F08003C
 			public const int radio = 2131230780;
 			
-			// aapt resource value: 0x7F020016
-			public const int refreshBtn = 2130837526;
+			// aapt resource value: 0x7F020022
+			public const int refreshBtn = 2130837538;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2838,8 +2859,8 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F0C0015
 			public const int right_side = 2131492885;
 			
-			// aapt resource value: 0x7F020020
-			public const int saveButton = 2130837536;
+			// aapt resource value: 0x7F020026
+			public const int saveButton = 2130837542;
 			
 			// aapt resource value: 0x7F0C0057
 			public const int save_image_matrix = 2131492951;
@@ -2895,11 +2916,14 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F08004F
 			public const int search_voice_btn = 2131230799;
 			
+			// aapt resource value: 0x7F020011
+			public const int secondCheckBox = 2130837521;
+			
 			// aapt resource value: 0x7F080050
 			public const int select_dialog_listview = 2131230800;
 			
-			// aapt resource value: 0x7F020015
-			public const int sendBtn = 2130837525;
+			// aapt resource value: 0x7F020021
+			public const int sendBtn = 2130837537;
 			
 			// aapt resource value: 0x7F020007
 			public const int sendFanBtn = 2130837511;
@@ -2924,6 +2948,9 @@ namespace PS4_Tool_v2
 			
 			// aapt resource value: 0x7F0C006D
 			public const int snackbar_text = 2131492973;
+			
+			// aapt resource value: 0x7F020027
+			public const int space1 = 2130837543;
 			
 			// aapt resource value: 0x7F08002D
 			public const int spacer = 2131230765;
@@ -2988,6 +3015,9 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
 			
+			// aapt resource value: 0x7F020012
+			public const int thirdCheckBox = 2130837522;
+			
 			// aapt resource value: 0x7F080057
 			public const int time = 2131230807;
 			
@@ -3000,11 +3030,11 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F080030
 			public const int title_template = 2131230768;
 			
-			// aapt resource value: 0x7F020011
-			public const int toolbar = 2130837521;
+			// aapt resource value: 0x7F020017
+			public const int toolbar = 2130837527;
 			
-			// aapt resource value: 0x7F020010
-			public const int toolbar_layout = 2130837520;
+			// aapt resource value: 0x7F020016
+			public const int toolbar_layout = 2130837526;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -3243,13 +3273,16 @@ namespace PS4_Tool_v2
 			public const int fan_control_fragment = 2130903043;
 			
 			// aapt resource value: 0x7F030004
-			public const int main = 2130903044;
+			public const int import_layout = 2130903044;
 			
 			// aapt resource value: 0x7F030005
-			public const int main_fragment = 2130903045;
+			public const int main = 2130903045;
 			
 			// aapt resource value: 0x7F030006
-			public const int nav_header = 2130903046;
+			public const int main_fragment = 2130903046;
+			
+			// aapt resource value: 0x7F030007
+			public const int nav_header = 2130903047;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3299,8 +3332,8 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F030020
 			public const int notification_template_part_time = 2130903072;
 			
-			// aapt resource value: 0x7F030007
-			public const int payloadListViewLayout = 2130903047;
+			// aapt resource value: 0x7F030008
+			public const int payloadListViewLayout = 2130903048;
 			
 			// aapt resource value: 0x7F030021
 			public const int select_dialog_item_material = 2130903073;
@@ -3311,14 +3344,14 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F030023
 			public const int select_dialog_singlechoice_material = 2130903075;
 			
-			// aapt resource value: 0x7F030008
-			public const int settings_fragment = 2130903048;
+			// aapt resource value: 0x7F030009
+			public const int settings_fragment = 2130903049;
 			
 			// aapt resource value: 0x7F030024
 			public const int support_simple_spinner_dropdown_item = 2130903076;
 			
-			// aapt resource value: 0x7F030009
-			public const int toolbar = 2130903049;
+			// aapt resource value: 0x7F030010
+			public const int toolbar = 2130903056;
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
@@ -3517,6 +3550,12 @@ namespace PS4_Tool_v2
 			
 			// aapt resource value: 0x7F160006
 			public const int Animation_Design_BottomSheetDialog = 2132148230;
+			
+			// aapt resource value: 0x7F100005
+			public const int AppTheme_AppBarOverlay = 2131755013;
+			
+			// aapt resource value: 0x7F100004
+			public const int AppTheme_PopupOverlay = 2131755012;
 			
 			// aapt resource value: 0x7F0B0004
 			public const int Base_AlertDialog_AppCompat = 2131427332;
@@ -4415,8 +4454,8 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F100002
 			public const int Theme_MyTheme = 2131755010;
 			
-			// aapt resource value: 0x7F100004
-			public const int Theme_MyTheme_ActionBar = 2131755012;
+			// aapt resource value: 0x7F100006
+			public const int Theme_MyTheme_ActionBar = 2131755014;
 			
 			// aapt resource value: 0x7F100003
 			public const int Theme_MyTheme_Base = 2131755011;

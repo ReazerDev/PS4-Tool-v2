@@ -81,32 +81,133 @@ namespace PS4_Tool_v2
             if (!Directory.Exists(pathToFolder))
             {
                 Directory.CreateDirectory(pathToFolder);
+            }
 
-                string[] files = context.Assets.List("Payloads");
-                foreach (string f in files)
+            if (!Directory.Exists(pathToFolder + "Fan Payloads/"))
+            {
+                Directory.CreateDirectory(pathToFolder + "Fan Payloads/");
+            }
+
+
+
+        }
+
+        public void moveFromAssets(Context context)
+        {
+             Directory.CreateDirectory(pathToFolder);
+
+             string[] files = context.Assets.List("Payloads");
+             foreach (string f in files)
+             {
+                if (!File.Exists(pathToFolder + f))
                 {
                     using (FileStream writeStream = new FileStream(pathToFolder + f, FileMode.OpenOrCreate, FileAccess.Write))
                     {
                         context.Assets.Open("Payloads/" + f).CopyTo(writeStream);
                     }
                 }
-            }
-            if (!Directory.Exists(pathToFolder + "Fan Payloads/"))
+             }
+
+            string[] fanFiles = context.Assets.List("FanPayloads");
+            foreach (string f in fanFiles)
             {
-                Directory.CreateDirectory(pathToFolder + "Fan Payloads/");
-
-
-                string[] files = context.Assets.List("FanPayloads");
-                foreach(string f in files)
+                if (File.Exists(pathToFolder + "Fan Payloads/" + f))
                 {
-                    using(FileStream writeStream = new FileStream(pathToFolder + "Fan Payloads/" + f, FileMode.OpenOrCreate, FileAccess.Write))
+                    using (FileStream writeStream = new FileStream(pathToFolder + "Fan Payloads/" + f, FileMode.OpenOrCreate, FileAccess.Write))
                     {
                         context.Assets.Open("FanPayloads/" + f).CopyTo(writeStream);
                     }
                 }
             }
-
-
         }
+
+        public void importFromV1(Context context, bool first, bool second, bool third)
+        {
+            //Messy Code incoming ^^
+
+            //Check if 1.76 and 4.05 Folder exists, if so move them up one directory
+            if (first)
+            {
+                if (!Directory.Exists(pathToFolder + "1.764.05"))
+                {
+                    Toast.MakeText(context, "No 1.76 or 4.05 Payloads where found!", ToastLength.Short).Show();
+                }
+                else
+                {
+                    int count = 0;
+                    DirectoryInfo di = new DirectoryInfo(pathToFolder + "1.764.05");
+                    FileInfo[] files = di.GetFiles("*.bin");
+                    foreach (FileInfo f in files)
+                    {
+                        if (File.Exists(pathToFolder + f.Name))
+                        {
+                            continue;
+                        }
+                        File.Move(f.FullName, pathToFolder + f.Name);
+                        count++;
+                    }
+                    Toast.MakeText(context, count + " Payloads where imported from 1.76 and 4.05!", ToastLength.Short).Show();
+                    Directory.Delete(pathToFolder + "1.764.05");
+                }
+            }
+
+
+
+            //Check if 4.55 Folder exists, if so move them up one directory
+            if (second)
+            {
+                if (!Directory.Exists(pathToFolder + "4.55"))
+                {
+                    Toast.MakeText(context, "No 4.55 Payloads where found!", ToastLength.Short).Show();
+                }
+                else
+                {
+                    int count = 0;
+                    DirectoryInfo di = new DirectoryInfo(pathToFolder + "4.55");
+                    FileInfo[] files = di.GetFiles("*.bin");
+                    foreach (FileInfo f in files)
+                    {
+                        if (File.Exists(pathToFolder + f.Name))
+                        {
+                            continue;
+                        }
+                        File.Move(f.FullName, pathToFolder + f.Name);
+                        count++;
+                    }
+                    Toast.MakeText(context, count + " Payloads where imported from 4.05!", ToastLength.Short).Show();
+                    Directory.Delete(pathToFolder + "4.55");
+                }
+            }
+
+
+
+            //Check if 5.05 Folder exists, if so move them up one directory
+            if (third)
+            {
+                if (!Directory.Exists(pathToFolder + "5.05"))
+                {
+                    Toast.MakeText(context, "No 5.05 Payloads where found!", ToastLength.Short).Show();
+                }
+                else
+                {
+                    int count = 0;
+                    DirectoryInfo di = new DirectoryInfo(pathToFolder + "5.05");
+                    FileInfo[] files = di.GetFiles("*.bin");
+                    foreach (FileInfo f in files)
+                    {
+                        if(File.Exists(pathToFolder + f.Name))
+                        {
+                            continue;
+                        }
+                        File.Move(f.FullName, pathToFolder + f.Name);
+                        count++;
+                    }
+                    Toast.MakeText(context, count + " Payloads where imported from 5.05!", ToastLength.Short).Show();
+                    Directory.Delete(pathToFolder + "5.05");
+                }
+            }
+        }
+
+
     }
 }

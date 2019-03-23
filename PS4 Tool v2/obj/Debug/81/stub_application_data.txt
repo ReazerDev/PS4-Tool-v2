@@ -1,2 +1,2 @@
 android.app.Application
-com.Reazer.PS4_Tool_v2
+com.Reazer.PS4Toolv2
