@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<fr.ganfra.materialspinner.MaterialSpinner
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/payloadSpinner"
+		android:layout_marginRight="5.0dp"
+		android:layout_marginLeft="5.0dp"
+		app:ms_arrowColor="#939393"
+		app:ms_arrowSize="16dp"
+		app:ms_floatingLabelColor="#A9A9A9"
+		app:ms_floatingLabelText="Select a Payload"
+		app:ms_hint="Select a Payload"
+		app:ms_hintColor="#000000"
+		android:backgroundTint="#ffffffff" 
+	/>
+	<Button
+		android:text="Send payload"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/sendBtn"
+		android:layout_marginTop="100.0dp"
+		android:layout_marginRight="50.0dp"
+		android:layout_marginLeft="50.0dp"
+		android:background="@color/primary"
+		android:textColor="#ffffffff"
+		android:height="10.0dp" />
+	<android.support.design.widget.FloatingActionButton
+		android:src="@drawable/refresh"
+		android:id="@+id/refreshBtn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|end"
+		app:backgroundTint="@color/primary"
+		android:layout_marginBottom="20.0dp"
+		android:layout_marginRight="20.0dp"/>
+</android.support.design.widget.CoordinatorLayout>

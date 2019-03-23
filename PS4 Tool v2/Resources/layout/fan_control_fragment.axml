@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="Temperature: 70"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/temeperatureText" />
+	<SeekBar
+		android:layout_width="match_parent"
+		android:layout_height="35.0dp"
+		android:minWidth="50px"
+		android:minHeight="50px"
+		android:id="@+id/temperatureSlider"
+		android:secondaryProgressTint="@color/primary"
+		android:thumbTint="@color/primary"
+		android:layout_marginLeft="30.0dp"
+		android:layout_marginRight="30.0dp"
+		android:progressBackgroundTint="@color/primary"
+		android:progress="70"
+		android:progressTint="@color/primary"
+		android:layout_marginTop="10.0dp"
+		android:max="99" />
+	<Button
+		android:text="Send payload"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/sendFanBtn"
+		android:layout_marginTop="10.0dp"
+		android:layout_marginRight="50.0dp"
+		android:layout_marginLeft="50.0dp"
+		android:background="@color/primary"
+		android:textColor="#ffffffff"
+		android:height="10.0dp" />
+	<TextView
+		android:text="Set the Temperature, when your Fan should start spinning."
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+		android:gravity="center" />
+
+</LinearLayout>

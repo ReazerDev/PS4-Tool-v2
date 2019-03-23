@@ -1,0 +1,11 @@
+NineOldAndroids
+System.Runtime
+Xamarin.Android.Support.v7.RecyclerView
+Xamarin.Android.Support.Vector.Drawable
+Xamarin.Android.Support.Transition
+Xamarin.Android.Support.Media.Compat
+Xamarin.Android.Support.Fragment
+Xamarin.Android.Support.Core.Utils
+Xamarin.Android.Support.Core.UI
+Xamarin.Android.Support.Compat
+Xamarin.Android.Support.Annotations

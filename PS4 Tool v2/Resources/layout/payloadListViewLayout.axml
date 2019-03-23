@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="130px">
+	<TextView
+		android:text="Payload Name"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="32.0dp"
+		android:id="@+id/payloadName"
+		android:layout_marginLeft="5.0dp"
+		android:layout_marginTop="5.0dp"
+		android:layout_marginBottom="6.0dp" />
+</LinearLayout>

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.props" Condition="Exists('packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E2D730C-56A7-4D16-A742-58BEC46AAD7C}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PS4_Tool_v2</RootNamespace>
+    <AssemblyName>PS4 Tool v2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidSupportedAbis>armeabi%3barmeabi-v7a%3bx86</AndroidSupportedAbis>
+    <MandroidI18n />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <AndroidKeyStore>false</AndroidKeyStore>
+    <AndroidSigningKeyStore>
+    </AndroidSigningKeyStore>
+    <AndroidSigningStorePass>
+    </AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>
+    </AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>
+    </AndroidSigningKeyPass>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidStoreUncompressedFileExtensions>
+    </AndroidStoreUncompressedFileExtensions>
+    <JavaMaximumHeapSize>
+    </JavaMaximumHeapSize>
+    <JavaOptions>
+    </JavaOptions>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <EnableProguard>false</EnableProguard>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidSupportedAbis>armeabi;armeabi-v7a;arm64-v8a</AndroidSupportedAbis>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MEMAPI">
+      <HintPath>..\..\memapi-library\MEMAPI Library\bin\Release\netstandard2.0\MEMAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fragments\Fan Control.cs" />
+    <Compile Include="Fragments\Credits.cs" />
+    <Compile Include="Fragments\Settings.cs" />
+    <Compile Include="Functions.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Fragments\Home.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaveSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\FanPayloads\Temp0.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp1.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp2.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp3.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp4.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp5.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp6.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp7.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp8.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp9.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp10.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp11.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp12.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp13.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp14.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp15.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp16.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp17.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp18.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp19.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp20.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp21.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp22.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp23.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp24.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp25.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp26.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp27.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp28.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp29.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp30.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp31.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp32.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp33.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp34.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp35.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp36.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp37.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp38.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp39.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp40.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp41.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp42.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp43.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp44.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp45.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp46.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp47.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp48.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp49.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp50.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp51.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp52.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp53.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp54.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp55.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp56.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp57.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp58.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp59.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp60.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp61.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp62.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp63.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp64.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp65.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp66.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp67.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp68.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp69.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp70.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp71.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp72.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp73.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp74.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp75.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp76.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp77.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp78.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp79.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp80.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp81.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp82.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp83.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp84.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp85.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp86.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp87.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp88.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp89.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp90.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp91.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp92.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp93.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp94.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp95.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp96.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp97.bin" />
+    <AndroidAsset Include="Assets\FanPayloads\Temp98.bin" />
+    <AndroidAsset Include="Assets\Payloads\App2USB v5.bin" />
+    <AndroidAsset Include="Assets\Payloads\Dumper-vtx 1.8.bin" />
+    <AndroidAsset Include="Assets\Payloads\FTP-vtx 1.3.bin" />
+    <AndroidAsset Include="Assets\Payloads\HEN 1.8+DebuggerPatch.bin" />
+    <AndroidAsset Include="Assets\Payloads\Linux-Loader-5.05.bin" />
+    <AndroidAsset Include="Assets\Payloads\reactPSPlus.bin" />
+    <AndroidAsset Include="Assets\Payloads\Update-Blocker-Extreme.bin" />
+    <AndroidAsset Include="Assets\Payloads\MiraFW_Orbis505.bin" />
+    <None Include="Resources\AboutResources.txt" />
+    <AndroidResource Include="Resources\values-v21\styles.xml" />
+    <AndroidResource Include="Resources\layout\toolbar.axml" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
+    <AndroidResource Include="Resources\layout\main_fragment.axml" />
+    <AndroidResource Include="Resources\layout\main.axml" />
+    <AndroidResource Include="Resources\layout\nav_header.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\integers.xml" />
+    <AndroidResource Include="Resources\values\strings.xml" />
+    <AndroidResource Include="Resources\values\styles.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\values-land\dimens.xml" />
+    <AndroidResource Include="Resources\values\arrays.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\menu\nav_menu.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_menu.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_home.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_settings.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_credits.png" />
+    <AndroidResource Include="Resources\layout\payloadListViewLayout.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\refresh.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\settings_fragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\credits_fragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\ic_fan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MaterialSpinner-Xamarin">
+      <Version>1.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.Design">
+      <Version>28.0.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v4">
+      <Version>28.0.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
+      <Version>28.0.0.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\fan_control_fragment.axml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\ic_mods.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
