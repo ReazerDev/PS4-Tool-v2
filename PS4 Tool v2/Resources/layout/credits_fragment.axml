@@ -16,7 +16,7 @@
 			android:layout_height="wrap_content"
 			android:id="@+id/code" />
 		<TextView
-			android:text="https://github.com/ReazerDev/PS4-Tool-Android"
+			android:text="https://github.com/ReazerDev/PS4-Tool-v2"
 			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
