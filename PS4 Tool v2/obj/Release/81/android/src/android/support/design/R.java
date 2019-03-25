@@ -3420,9 +3420,10 @@ containing a value of this type.
         public static int select_dialog_multichoice_material=0x7f03003f;
         public static int select_dialog_singlechoice_material=0x7f030040;
         public static int settings_fragment=0x7f030041;
-        public static int support_simple_spinner_dropdown_item=0x7f030042;
-        public static int toolbar=0x7f030043;
-        public static int tooltip=0x7f030044;
+        public static int spinner_item=0x7f030042;
+        public static int support_simple_spinner_dropdown_item=0x7f030043;
+        public static int toolbar=0x7f030044;
+        public static int tooltip=0x7f030045;
     }
     public static final class menu {
         public static int nav_menu=0x7f0e0000;

@@ -64,7 +64,7 @@ namespace PS4_Tool_v2.Fragments
 
                 payloadList = functions.getFilesInDirectory();
 
-                adapter = new ArrayAdapter<string>(Context.ApplicationContext, Android.Resource.Layout.SimpleSpinnerDropDownItem, payloadList);
+                adapter = new ArrayAdapter<string>(Context.ApplicationContext, Resource.Layout.payload_spinner_item, payloadList);
                 payloadSpinner.Adapter = adapter;
             }
         }
