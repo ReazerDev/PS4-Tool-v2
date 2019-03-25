@@ -3326,6 +3326,9 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F030008
 			public const int payloadListViewLayout = 2130903048;
 			
+			// aapt resource value: 0x7F030009
+			public const int payload_spinner_item = 2130903049;
+			
 			// aapt resource value: 0x7F030021
 			public const int select_dialog_item_material = 2130903073;
 			
@@ -3335,14 +3338,14 @@ namespace PS4_Tool_v2
 			// aapt resource value: 0x7F030023
 			public const int select_dialog_singlechoice_material = 2130903075;
 			
-			// aapt resource value: 0x7F030009
-			public const int settings_fragment = 2130903049;
+			// aapt resource value: 0x7F030010
+			public const int settings_fragment = 2130903056;
 			
 			// aapt resource value: 0x7F030024
 			public const int support_simple_spinner_dropdown_item = 2130903076;
 			
-			// aapt resource value: 0x7F030010
-			public const int toolbar = 2130903056;
+			// aapt resource value: 0x7F030011
+			public const int toolbar = 2130903057;
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;

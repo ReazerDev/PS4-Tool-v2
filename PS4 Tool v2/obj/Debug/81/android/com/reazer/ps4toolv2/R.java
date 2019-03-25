@@ -3415,14 +3415,15 @@ containing a value of this type.
         public static final int notification_template_media_custom=0x7f03003a;
         public static final int notification_template_part_chronometer=0x7f03003b;
         public static final int notification_template_part_time=0x7f03003c;
-        public static final int payloadlistviewlayout=0x7f03003d;
-        public static final int select_dialog_item_material=0x7f03003e;
-        public static final int select_dialog_multichoice_material=0x7f03003f;
-        public static final int select_dialog_singlechoice_material=0x7f030040;
-        public static final int settings_fragment=0x7f030041;
-        public static final int support_simple_spinner_dropdown_item=0x7f030042;
-        public static final int toolbar=0x7f030043;
-        public static final int tooltip=0x7f030044;
+        public static final int payload_spinner_item=0x7f03003d;
+        public static final int payloadlistviewlayout=0x7f03003e;
+        public static final int select_dialog_item_material=0x7f03003f;
+        public static final int select_dialog_multichoice_material=0x7f030040;
+        public static final int select_dialog_singlechoice_material=0x7f030041;
+        public static final int settings_fragment=0x7f030042;
+        public static final int support_simple_spinner_dropdown_item=0x7f030043;
+        public static final int toolbar=0x7f030044;
+        public static final int tooltip=0x7f030045;
     }
     public static final class menu {
         public static final int nav_menu=0x7f0e0000;
