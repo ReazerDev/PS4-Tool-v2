@@ -1,23 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <group android:checkableBehavior="single">
-    <item
-        android:id="@+id/nav_home"
-        android:icon="@drawable/ic_home"
-        android:title="Payload Sender" />
-    <item
-        android:id="@+id/nav_fan_control"
-        android:icon="@drawable/ic_fan"
-        android:title="Fan Control" />
-    <item
-          android:id="@+id/nav_settings"
-          android:icon="@drawable/ic_settings"
-          android:title="Settings" />
-    <item
-        android:id="@+id/nav_credits"
-        android:icon="@drawable/ic_credits"
-        android:title="Credits"  />
-  </group>
+  <item android:title="Features">
+     <menu>
+       <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Payload Sender" />
+        <item
+            android:id="@+id/nav_fan_control"
+            android:icon="@drawable/ic_fan"
+            android:title="Fan Control" />
+     </group>
+    </menu>
+  </item>
 
+  <item android:title="Settings">
+    <menu>
+      <group android:checkableBehavior="single">
+        <item
+              android:id="@+id/nav_ipandport"
+              android:icon="@drawable/ic_settings"
+              android:title="IP Address and Port" />
+        <item
+              android:id="@+id/nav_import"
+              android:icon="@drawable/ic_settings"
+              android:title="Import Payloads from v1" />
+      </group>
+    </menu>
+  </item>
+
+  <item android:title="Misc">
+    <menu>
+      <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@drawable/ic_credits"
+            android:title="Credits"  />
+      </group>
+    </menu>
+  </item>
 </menu>

@@ -11,7 +11,6 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="Import" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md58f4bf2bdbeb0f4bf5da0e30d65e153fe.ImportActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.Reazer.PS4Toolv2.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

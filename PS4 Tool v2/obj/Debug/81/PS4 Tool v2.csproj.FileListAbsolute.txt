@@ -1,14 +1,14 @@
+D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\PS4 Tool v2.nuget.stamp
+D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\libraryimports.cache.stamp
+D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res.flag
+D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\PS4 Tool v2.csproj.CoreCompileInputs.cache
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Debug\PS4 Tool v2.dll
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Debug\PS4 Tool v2.pdb
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Debug\com.Reazer.PS4Toolv2.apk
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Debug\com.Reazer.PS4Toolv2-Signed.apk
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Debug\MEMAPI.dll
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Debug\MEMAPI.pdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\PS4 Tool v2.nuget.stamp
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\libraryimports.cache.stamp
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res.flag
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\PS4 Tool v2.csproj.CoreCompileInputs.cache
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\PS4 Tool v2.csproj.CopyComplete
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\PS4 Tool v2.dll
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\PS4 Tool v2.pdb
@@ -32,13 +32,15 @@ D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\drawable-hdpi\ic_settings.p
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\drawable-hdpi\ic_credits.png
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\layout\payloadlistviewlayout.xml
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\drawable-hdpi\refresh.png
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\layout\settings_fragment.xml
+D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\layout\ipandport_fragment.xml
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\layout\credits_fragment.xml
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\drawable-hdpi\ic_fan.png
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\drawable-hdpi\icon.png
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\layout\fan_control_fragment.xml
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\drawable-hdpi\ic_mods.png
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\layout\import_layout.xml
+D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\layout\import_fragment.xml
+D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\layout\payload_spinner_item.xml
+D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\color\nav_state_list.xml
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\R.cs.flag
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\R.txt
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\uploadflags.txt
@@ -98,7 +100,5 @@ D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\android\assets\System.Transacti
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\android\assets\System.Web.Services.pdb
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\android\assets\System.Xml.Linq.pdb
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\android\assets\System.Xml.pdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\PS4 Tool v2.csprojAssemblyReference.cache
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\res\layout\payload_spinner_item.xml
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Debug\PS4 Tool v2.dll
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Debug\81\linksrc\PS4 Tool v2.dll.mdb

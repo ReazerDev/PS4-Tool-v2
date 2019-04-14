@@ -1,7 +1,7 @@
 package md5de800e2c9e4d593faf506502a75e3f7c;
 
 
-public class Settings
+public class IPandPort
 	extends android.support.v4.app.Fragment
 	implements
 		mono.android.IGCUserPeer
@@ -14,15 +14,15 @@ public class Settings
 			"n_onActivityCreated:(Landroid/os/Bundle;)V:GetOnActivityCreated_Landroid_os_Bundle_Handler\n" +
 			"n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("PS4_Tool_v2.Fragments.Settings, PS4 Tool v2", Settings.class, __md_methods);
+		mono.android.Runtime.register ("PS4_Tool_v2.Fragments.IPandPort, PS4 Tool v2", IPandPort.class, __md_methods);
 	}
 
 
-	public Settings ()
+	public IPandPort ()
 	{
 		super ();
-		if (getClass () == Settings.class)
-			mono.android.TypeManager.Activate ("PS4_Tool_v2.Fragments.Settings, PS4 Tool v2", "", this, new java.lang.Object[] {  });
+		if (getClass () == IPandPort.class)
+			mono.android.TypeManager.Activate ("PS4_Tool_v2.Fragments.IPandPort, PS4 Tool v2", "", this, new java.lang.Object[] {  });
 	}
 
 

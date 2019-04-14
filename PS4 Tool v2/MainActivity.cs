@@ -55,7 +55,7 @@ namespace PS4_Tool_v2
 
             //setup navigation view
             navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
-
+            
             //handle navigation
             navigationView.NavigationItemSelected += (sender, e) =>
             {
@@ -74,11 +74,14 @@ namespace PS4_Tool_v2
                     case Resource.Id.nav_fan_control:
                         ListItemClicked(1);
                         break;
-                    case Resource.Id.nav_settings:
+                    case Resource.Id.nav_ipandport:
                         ListItemClicked(2);
                         break;
-                    case Resource.Id.nav_credits:
+                    case Resource.Id.nav_import:
                         ListItemClicked(3);
+                        break;
+                    case Resource.Id.nav_credits:
+                        ListItemClicked(4);
                         break;
                 }
 
@@ -117,10 +120,14 @@ namespace PS4_Tool_v2
                     SupportActionBar.Title = "Fan Control";
                     break;
                 case 2:
-                    fragment = Settings.NewInstance();
-                    SupportActionBar.Title = "Settings";
+                    fragment = IPandPort.NewInstance();
+                    SupportActionBar.Title = "IP and Port";
                     break;
                 case 3:
+                    fragment = Import.NewInstance();
+                    SupportActionBar.Title = "Import Payloads from v1";
+                    break;
+                case 4:
                     fragment = Credits.NewInstance();
                     SupportActionBar.Title = "Credits";
                     break;

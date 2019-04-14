@@ -6,7 +6,6 @@ D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Release\MEMAPI.dll
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Release\MEMAPI.pdb
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\PS4 Tool v2.nuget.stamp
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\PS4 Tool v2.csprojAssemblyReference.cache
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\libraryimports.cache.stamp
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\res.flag
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\PS4 Tool v2.csproj.CoreCompileInputs.cache
@@ -40,9 +39,11 @@ D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\res\drawable-hdpi\icon.png
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\res\layout\fan_control_fragment.xml
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\res\drawable-hdpi\ic_mods.png
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\res\layout\import_layout.xml
+D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\res\layout\payload_spinner_item.xml
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\R.cs.flag
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\R.txt
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\uploadflags.txt
+D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Release\PS4 Tool v2.dll
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Release\Mono.Android.pdb
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Release\mscorlib.pdb
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Release\System.Core.pdb
@@ -78,15 +79,4 @@ D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\linksrc\System.Runtime.Serial
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\linksrc\System.ServiceModel.Internals.pdb
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\linksrc\System.Web.Services.pdb
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\linksrc\Mono.Security.pdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\linksrc\PS4 Tool v2.dll.mdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\res\layout\payload_spinner_item.xml
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Release\PS4 Tool v2.dll.mdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\android\assets\PS4 Tool v2.dll.mdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\android\assets\MEMAPI.pdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\android\assets\Mono.Android.pdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\android\assets\mscorlib.pdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\android\assets\System.Core.pdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\android\assets\System.pdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\android\assets\System.Runtime.Serialization.pdb
-D:\Projekte\PS4 Tool v2\PS4 Tool v2\bin\Release\PS4 Tool v2.dll
 D:\Projekte\PS4 Tool v2\PS4 Tool v2\obj\Release\81\linksrc\PS4 Tool v2.dll.mdb

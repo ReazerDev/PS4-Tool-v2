@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projekte\\PS4 Tool v2\\PS4 Tool v2\\PS4 Tool v2.csproj": {}
+  },
+  "projects": {
+    "D:\\Projekte\\PS4 Tool v2\\PS4 Tool v2\\PS4 Tool v2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projekte\\PS4 Tool v2\\PS4 Tool v2\\PS4 Tool v2.csproj",
+        "projectName": "PS4 Tool v2",
+        "projectPath": "D:\\Projekte\\PS4 Tool v2\\PS4 Tool v2\\PS4 Tool v2.csproj",
+        "packagesPath": "C:\\Users\\Reazer\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekte\\PS4 Tool v2\\PS4 Tool v2\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Reazer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "MaterialSpinner-Xamarin": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

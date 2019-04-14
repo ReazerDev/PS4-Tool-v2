@@ -80,11 +80,11 @@
   <ItemGroup>
     <Compile Include="Fragments\Fan Control.cs" />
     <Compile Include="Fragments\Credits.cs" />
-    <Compile Include="Fragments\Settings.cs" />
+    <Compile Include="Fragments\Import.cs" />
+    <Compile Include="Fragments\IPandPort.cs" />
     <Compile Include="Functions.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Fragments\Home.cs" />
-    <Compile Include="Resources\ImportActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SaveSettings.cs" />
@@ -229,7 +229,7 @@
     <AndroidResource Include="Resources\drawable-hdpi\refresh.png">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\settings_fragment.axml">
+    <AndroidResource Include="Resources\layout\ipandport_fragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\credits_fragment.axml">
@@ -264,12 +264,15 @@
     <AndroidResource Include="Resources\drawable-hdpi\ic_mods.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\import_layout.axml">
+    <AndroidResource Include="Resources\layout\import_fragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\payload_spinner_item.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\color\nav_state_list.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:app="http://schemas.android.com/apk/res-auto"
-	xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent"
-	android:layout_height="fill_parent">
-	<android.support.design.widget.AppBarLayout
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:theme="@style/AppTheme.AppBarOverlay">
-		<android.support.v7.widget.Toolbar
-			android:id="@+id/import_toolbar"
-			android:layout_width="match_parent"
-			android:layout_height="?attr/actionBarSize"
-			android:background="@color/primary"
-			app:popupTheme="@style/AppTheme.PopupOverlay" >
-		</android.support.v7.widget.Toolbar>
-	</android.support.design.widget.AppBarLayout>
-	<LinearLayout
-		android:orientation="vertical"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:layout_width="match_parent"
-		android:layout_height="fill_parent"
-		android:layout_marginTop="65.0dp"
-		android:layout_marginLeft="5.0dp">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 		<TextView
 			android:text="Select the Firmware Version from which the Payloads should be imported:"
 			android:textAppearance="?android:attr/textAppearanceMedium"
@@ -71,6 +49,3 @@
 			android:textColor="#ffffffff"
 			android:layout_marginTop="10.0dp" />
 	</LinearLayout>
-	
-
-</android.support.design.widget.CoordinatorLayout>
