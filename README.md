@@ -1,6 +1,6 @@
 # PS4 Tool v2
 
-Download and Install the App from here: http://reazer.bplaced.net
+Download and Install the App from here: http://reazer.net/PS4ToolV2
 
 # How To Use
 
